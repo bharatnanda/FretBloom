@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment variables — never commit these
+.env
+.env.local
+.env.*.local
+.env.production
+
+# Vite
+*.local
+.vite/
+
+# PWA dev artifacts
+dev-dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# Logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+*.log
+
+# Supabase local dev (added later)
+supabase/.temp/
+supabase/functions/.env
+
+# Node backend (added later)
+backend/node_modules/
+backend/dist/
+backend/.env
